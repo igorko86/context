@@ -1,0 +1,57 @@
+
+.colors{
+    width:200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.menu{
+   width: 100px;
+   height: 123px;
+   background: grey;
+   border: 1px solid blue;
+   position: absolute;
+   left:0;
+   top:0;
+   overflow: hidden;
+}
+ .list{
+    width: 100px;
+    background: white;
+    margin: 0 0 0 22px;
+    padding: 8px 0 20px 20px; ;
+    border-left: 2px solid blue;
+    position: absolute;
+    top:0;
+    cursor: pointer;
+    
+   
+}
+.item{
+    list-style-type:  none;
+    height: 19px;
+   
+}
+
+.up{
+    display: none;
+    height: 10px;
+    font-size: 8px;
+    text-align: center;
+    background: grey;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+.down{
+    height: 10px;
+    width: 100%;
+    font-size: 8px;
+    background: grey;
+    border-top: 1px solid white;
+    text-align: center;
+    position: absolute;
+   top: 112px;
+    cursor: pointer;
+}
