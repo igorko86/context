@@ -1,26 +1,40 @@
 [
     {
-        "item":"item 1"
+        
+        "color":"blue",
+        "blue":"#0000FF"
     },
      {
-        "item":"item 2"
+        "color": "red",
+        "red":"#FF0000"
     },
      {
-        "item":"item 3"
+        "color":"yellow",
+        "yellow":"#FFFF00"
     },
      {
-        "item":"item 4"
+        
+        "color":"pink",
+        "pink":"#FFC0CB"
     },
      {
-        "item":"item 5"
+        
+        "color":"green",
+        "green":"#008B00"
     },
      {
-        "item":"item 6"
+        
+        "color":"orange",
+        "orange":"#FFA500"
     }, {
-        "item":"item 7"
+        
+        "color":"black",
+        "black":"#000000"
     },
      {
-        "item":"item 8"
+        
+        "color":"white",
+        "white":"#FFFFFF"
     }
 
 ]
