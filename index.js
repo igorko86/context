@@ -1,5 +1,5 @@
 document.querySelector(".colors").addEventListener("contextmenu",handler);
-let obj;
+let objColors;
 function showMenu(x,y,div){
     document.querySelector(".colors").innerHTML = div;
     document.querySelector(".menu").style.top = y+"px";
@@ -25,7 +25,7 @@ function handler(e){
             fetch(fileJson).then(result=>result.json().then(it=>{
                 this.it = it,
                 this.insert(it);
-                obj = it;
+                objColors = it;
             }))
         }
         insert(it){
@@ -63,6 +63,6 @@ function getColor(e){
     console.log(e)
     const liText = e.target.innerHTML;
     const colors = document.querySelector(".colors");
-    obj.forEach(el=> colors.style.background = el[liText])
+    objColors.forEach(el=> colors.style.background = el[liText])
    
 }

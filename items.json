@@ -1,6 +1,5 @@
 [
-    {
-        
+     {
         "color":"blue",
         "blue":"#0000FF"
     },
@@ -13,26 +12,22 @@
         "yellow":"#FFFF00"
     },
      {
-        
         "color":"pink",
         "pink":"#FFC0CB"
     },
      {
-        
         "color":"green",
         "green":"#008B00"
     },
      {
-        
         "color":"orange",
         "orange":"#FFA500"
-    }, {
-        
+    }, 
+    {
         "color":"black",
         "black":"#000000"
     },
      {
-        
         "color":"white",
         "white":"#FFFFFF"
     }
