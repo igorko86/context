@@ -60,9 +60,7 @@ function scroll(offset){
 }
 
 function getColor(e){
-    console.log(e)
     const liText = e.target.innerHTML;
     const colors = document.querySelector(".colors");
-    objColors.forEach(el=> colors.style.background = el[liText])
-   
+    objColors.forEach(el=> colors.style.background = el[liText]);
 }
